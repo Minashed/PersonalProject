@@ -21,6 +21,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
+
+
+        System.out.println("TEST TEST FADY LET ME KNOW IF U SEE THIS COMMIT/PUSH");
+        
         mapFragment.getMapAsync(this);
     }
 
