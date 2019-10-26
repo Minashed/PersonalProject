@@ -2,6 +2,7 @@ package com.example.asign;
 
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -23,7 +24,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .findFragmentById(R.id.map);
 
 
-        System.out.println("TEST TEST FADY LET ME KNOW IF U SEE THIS COMMIT/PUSH");
+        Log.d("test", "Test log to see if this section of code is being hit");
         
         mapFragment.getMapAsync(this);
     }
